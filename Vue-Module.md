@@ -43,3 +43,26 @@ using them._
   - e.g. Mine would say "How are you, John?"
 8. This is where we get to start with the dynamic nature of Vue. Below the new question, add an `input` element with the `v-model` attribute with a value of `name`.
 9. You should now see a text input field showing your name! Try updating the field value to use your first and last name. The question updates according to the data passed in. If you have the Vue Devtools installed and are running `live-server`, take a look at the `<Root>` Vue object and watch the data update as you change the value of the input field.
+10. Commit and push you changes, create a new issue titled _First task complete!_, and tag your mentor.
+
+---
+_That was a lot to get through; well done!_
+
+1. Checkout `task-2-hello-todo` to get started
+2. The `index.html` and `app.js` files have been updated, so take a look at them before moving on.
+  - `index.html` now renders a list of tasks using the `v-for` directive
+  - `app.js` provides an array of tasks that are used on the page
+  - At this point, hopefully you can start to see how interacting with the data on the page is what Vue uses to drive the application. Add a couple of tasks to the `tasks` attribute in `app.js` and see how the page updates.
+3. There is a form to add a new task commented out below the task list; uncomment it.
+4. Add a new data attribute called `newTask` and set it to `''`. Now bind the `newTask` data to the `#newTaskInput` using `v-model`.
+  - We set `newTask` to `''` just like initialize a variable in other contexts.
+5. [Create a new method](https://vuejs.org/guide/events.html#Method-Handler) called `addTask` and have it _push_ the current `newTask` value onto the `tasks` array. Using `v-on`, have the button call `addTask` when _clicked_.
+  - You may notice that the page refreshes when clicking the button. This is because the native click event is being carried through the function call. Here are some Vue [event modifiers](https://vuejs.org/guide/events.html#Event-Modifiers) to help solve those issues. (`.stop` should work in this case)
+  - You can access the instances data by using `this.tasks` and `this.task`.
+  - Don't forget to reset `newTask` to `''` after pushing it to the `tasks` array.
+6. Great work so far! Now we just need to delete tasks once completed! Create a new method called `removeTask`. This method will need to task a `task` as an argument.
+  - e.g. `removeTask: function (task) {`
+7. In `index.html`, update the `<li>` to call the `removeTask(task)` method on _click_ using `v-on`
+  - This should look almost the same as adding a task, except with a task as an argument and without any event modifiers.
+8. Vue has a handy [`$remove`](http://vuejs.org/api/#array-remove-reference) function that helps manipulate array data. Using the `$remove` function, remove the `task` passed to the `removeTask` function.
+9. Try out your new todo application! Once you're done, commit and push you changes, create a new issue titled _Second task complete!_, and tag your mentor.
