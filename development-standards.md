@@ -3,7 +3,7 @@
 
 ## Code
 
- * Must follow all [accepted PSR standards](http://www.php-fig.org/psr/#accepted)
+ * Must follow all [Android/Java standards](https://blog.mindorks.com/android-code-style-and-guidelines-d5f80453d5c7)
  * Must follow [SOLID principles](https://android.jlelse.eu/android-development-the-solid-principles-3b5779b105d2).
  * Must not be pulled into mainline branches until it has gone through code review
  * Should indicate _what_ is happening, comments should indicate _why_
