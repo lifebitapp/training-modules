@@ -4,7 +4,7 @@
 ## Code
 
  * Must follow all [accepted PSR standards](http://www.php-fig.org/psr/#accepted)
- * Must follow [SOLID principles](https://laracasts.com/series/solid-principles-in-php). (Ask an engineer for Laracast credentials)
+ * Must follow [SOLID principles](https://android.jlelse.eu/android-development-the-solid-principles-3b5779b105d2).
  * Must not be pulled into mainline branches until it has gone through code review
  * Should indicate _what_ is happening, comments should indicate _why_
 
