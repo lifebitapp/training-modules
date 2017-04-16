@@ -1,16 +1,16 @@
-# PHP Learning Modules
+# Android Learning Modules
 
 ***
 
 ## Getting Started
 
-This branch of the training modules repository is specific to PHP web development. For the purposes of consistency and future development workflow, it is recommended that you use the [Laravel Homestead](http://laravel.com/docs/master/homestead) VM.
+This branch of the training modules repository is specific to Android mobile development. For the purposes of consistency and future development workflow, it is recommended that you use the [Android Studio](https://developer.android.com/studio/index.html)
 
 ***
 
 ## Table Of Contents
 
-0. [Generation Tux Development Standards](development-standards.md)
+0. [Lifebit Development Standards](development-standards.md)
 1. [Git Basics](Module-01.md)
 2. [Programming Basics with PHP](Module-02.md)
 3. [PHP Coding Standards](Module-03.md)
