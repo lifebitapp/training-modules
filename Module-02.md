@@ -1,12 +1,12 @@
-# Module 2: Programming Basics with PHP
+# Module 2: Programming Basics with Java
 
 ***
 
 ## Getting Started
 
-Prior to completing the module below it is highly recommended that you look at the following learning material (Note that the content here is PHP 5.4+ specific):
+Prior to completing the module below it is highly recommended that you look at the following learning material:
 
-- [PHP The Right Way](http://phptherightway.com)
+- [Codecademy Java Course](https://www.codecademy.com/learn/learn-java#)
 
 ***
 
@@ -16,7 +16,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ### Variables, Constants and Strings
 
-1. Create a new Git repo in your GitHub account under your namespace called `PHP`. All the code for this module should be committed there.
+1. Create a new Git repo in your GitHub account under your namespace called `Java`. All the code for this module should be committed there.
 2. Create a file called `constants.php` and define 5 PHP constants there via the `define()` method. Assign some constants string values and some integer values. The integer values should be between one (1) and five (5).
 3. Stage, commit and push your changes.
 4. Create a new file called `main.php`. In the `main.php` file bring in the constants.php file in a way that will make it required and that it will be brought in only one time.
@@ -63,7 +63,7 @@ Prior to completing the module below it is highly recommended that you look at t
 
 ### Inheritance, Interfaces, Namespaces and Traits
 
-Create a new branch in your PHP Git repository called `advanced` and push your code for the following exercises there. Place all the following code in a folder called `advanced`.
+Create a new branch in your Java Git repository called `advanced` and push your code for the following exercises there. Place all the following code in a folder called `advanced`.
 
 1. Create an inheritance hierarchy composed of six (6) classes:
     - Computer > Workstation
@@ -72,7 +72,7 @@ Create a new branch in your PHP Git repository called `advanced` and push your c
     - Computer > Server
     - Server > WebServer
     -	Server > DatabaseServer
-2. Create a new PHP file called `main.php` which uses these classes. Be creative and show the following concepts (you can simply echo strings for the function logic):
+2. Create a new Java file called `main.php` which uses these classes. Be creative and show the following concepts (you can simply echo strings for the function logic):
     - Public, Protected and Private functions
     - Public, Protected and Private properties
     - Overwriting inherited functions
@@ -83,27 +83,7 @@ Create a new branch in your PHP Git repository called `advanced` and push your c
     - Now refactor your code to include at least three (3) `closures`. If your code already has this, add three (3) more
     - Stage, commit and push your changes **with a commit message of `closures`**
 
-### Final
 
-1. Create a new Git Repo in your GitHub namespace called `php-final` and put all your code for the following exercise there.
-2. Create a simple PHP application **that does not use an existing framework or 3rd party libraries** and has the characteristics listed below.
-3. Note that this exercise should be kept as simple as possible. **Do not develop beyond the feature requirements below.**
-
-> Before you begin building this web application, take a minute to setup [Laravel Homestead](http://laravel.com/docs/master/homestead) if you haven't already.
-
-#### Feature Requirements
-
-- Uses the MVC design pattern (limit to one [1] model and one [1] controller for simplicity)
-- Uses a namespace
-- Saves information into a MySQL database
-- Illustrates `create`, `read`, `update` and `delete` functions on a `model` (all database interaction should happen at the model layer)
-- Has static methods on the model for `find()` and `findAll()` for fetching model records
-- Inserts or updates a record into the database using a `save()` method on the model
-- Deletes the record from the database using a `destroy()` method on the model
-- Validates properties on the model using a `validate()` function which returns `true` or `false` as to whether or not the model is valid
-- The model's `validate()` function should feed data to an `errors()` function that returns an array of errors (if any)
-- The model's `save` function should return `true` or `false` if a `insert` or `update` was successful, and should validate the model prior to attempting to save. If the model is invalid, the `save()` should not complete and should return `false`.
-- If a model does not save for some reason, the user should be returned to the `create` or `update` view and be shown the errors.
 
 ***
 
