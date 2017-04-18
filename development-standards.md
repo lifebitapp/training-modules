@@ -1,5 +1,5 @@
 
-# Generation Tux Development Standards
+# Lifebit Development Standards
 
 ## Code
 
