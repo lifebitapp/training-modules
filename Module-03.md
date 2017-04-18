@@ -1,10 +1,20 @@
-# Module 3: PHP Coding Standards
+# Module 4: Android Basics
 
 ***
 
 ## Getting Started
 
-Prior to completing the module below you'll need to review the [Generation Tux Development Standards](development-standards.md).
+Here are the Core OS level technologies that make Android work:
+[Android OS](https://source.android.com/devices/tech)
+
+Understanding Activity Lifecycle is key to how applications work and are loaded/destroyed from memory at any given time that the developer can't explicitly control
+
+
+![Android Architecture Stack](https://developer.android.com/guide/platform/images/android-stack_2x.png)
+
+
+
+[Activity Lifecycle](
 
 ***
 
