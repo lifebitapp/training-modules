@@ -1,4 +1,4 @@
-# Module 1: Git Basics
+# Module 2: Git Basics
 
 ***
 
