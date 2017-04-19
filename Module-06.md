@@ -6,22 +6,17 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material:
 
-- [How to Write Testable and Maintainable Code in PHP](http://net.tutsplus.com/tutorials/php/how-to-write-testable-and-maintainable-code-in-php/)
-- [Modern Testing In PHP With Codeception](https://tutsplus.com/course/modern-testing-in-php-with-codeception/)
-- [Codeception Documentation](http://codeception.com/docs/01-Introduction)
+- [Getting Started with Material Design Video](https://www.youtube.com/watch?v=vx3TXN6ipAg)
+- [Android Developer Overview of Design](https://developer.android.com/design/index.html)
+- [Resources for Material Design](https://www.sitepoint.com/10-essential-material-design-resources-and-tutorials/)
 
-_Before you can run Codeception on your Mac, you'll need to add a `date.timezone` configuration to your `/etc/php.ini.default` and rename it to `php.ini`._
 
 ***
 
-## The Test
+## Lab
 
-Create a new branch in your 'php-final' Git repo called `codeception` and commit all the work from this module there. Be sure to write any code to conform to the PSR-2 standard.
-1. Install Codeception using Composer
-2. Using Codeception and your basic MVC application create at least 1 of each of the following tests:
-    - Unit Test
-	  - Acceptance Test using the PhpBrowser back-end
-3. Stage, commit and push your code to GitHub.
-4. Refactor your acceptance test settings to use Codeception's WebDriver as the back-end.
+Great Udacity course on everything you need to know about Material Design
+
+- [Udacity Course on Material Design](https://www.udacity.com/course/material-design-for-android-developers--ud862)
 
 ***
