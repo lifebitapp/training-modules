@@ -6,7 +6,7 @@
 
 Prior to completing the module below it is highly recommended that you look at the following learning material:
 
-**Note:** PHPDocumentor2's 2.0 release documentation standard is the standard that new PHP development will conform to at RealPage.
+
 
 - [UI Testing with Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)
 - [Getting Started with Espresso Video](https://www.youtube.com/watch?v=TGU0B4qRlHY)
