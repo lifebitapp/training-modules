@@ -89,6 +89,5 @@ Create a new branch in your Java Git repository called `advanced` and push your 
 
 ## Wrapping Up
 
-When you are finished, push your code to GitHub. You should have two (2) repos, `PHP` and `php-final` in your personal GitHub namespace. Create a tag called `v1.2` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
+When you are finished, push your code to GitHub. You should have two (2) repos, `java` and `java-final` in your personal GitHub namespace. Create a tag called `v1.2` with a message of `"ready for review"`. Be sure your tags are pushed to the remote repository and are visible in GitHub.
 
-Create an issue titled **Review Module 2 - Programming Basics with PHP** and `@mention` your mentor and team leader.
